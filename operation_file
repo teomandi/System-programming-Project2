@@ -1,0 +1,12 @@
+submit ./slave 1a 2er 3dsd
+submit ./slave2
+submit ./slave3
+status 2
+status-all
+show-active
+show-pools
+show-finished
+suspend 1
+show-active
+resume 1
+show-active
